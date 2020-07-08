@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="movieSeat.Controller">
+   <left>
+      <GridPane prefHeight="491.0" prefWidth="612.0" style="-fx-background-color: #535353;" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="12">
+               <children>
+                  <Label text="Screen" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="85.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="A" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="B" textFill="#fcfcfc">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Label text="C" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="4">
+               <children>
+                  <Label text="D" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="5">
+               <children>
+                  <Label text="E" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="6">
+               <children>
+                  <Label text="F" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="7">
+               <children>
+                  <Label text="G" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="8">
+               <children>
+                  <Label text="H" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="9">
+               <children>
+                  <Label text="I" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="10">
+               <children>
+                  <Label text="J" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="11">
+               <children>
+                  <Label text="K" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="12">
+               <children>
+                  <Label text="L" textFill="WHITE">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="1">
+               <children>
+                  <ToggleButton fx:id="A1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="A12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="2">
+               <children>
+                  <ToggleButton fx:id="B1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="B12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="3">
+               <children>
+                  <ToggleButton fx:id="C1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C7" mnemonicParsing="false" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C8" mnemonicParsing="false" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="C12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="4">
+               <children>
+                  <ToggleButton fx:id="D1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="D12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="5">
+               <children>
+                  <ToggleButton fx:id="E1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="E12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="6">
+               <children>
+                  <ToggleButton fx:id="F1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="F12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="7">
+               <children>
+                  <ToggleButton fx:id="G1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="G12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="8">
+               <children>
+                  <ToggleButton fx:id="H1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="H12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="10">
+               <children>
+                  <ToggleButton fx:id="I1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="I12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="11">
+               <children>
+                  <ToggleButton fx:id="J1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="J12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="12">
+               <children>
+                  <ToggleButton fx:id="K1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="K12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="12" GridPane.rowIndex="9">
+               <children>
+                  <ToggleButton fx:id="L1" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L2" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L3" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L4" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L5" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L6" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L7" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L8" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L9" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L10" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="10">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L11" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="11">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="L12" mnemonicParsing="false" onAction="#seatProc" prefHeight="35.0" prefWidth="45.0" text="12">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </ToggleButton>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </left>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="좌석 선택" textFill="#0122f8">
+               <font>
+                  <Font size="30.0" />
+               </font></Label>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="666.0">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/디즈니%20시네마%20로고.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox prefHeight="81.0" prefWidth="800.0" style="-fx-background-color: #535353;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="621.0" spacing="50.0">
+               <children>
+                  <Button fx:id="reBtn" mnemonicParsing="false" onAction="#reProc" text="다시선택">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cancelBtn" mnemonicParsing="false" onAction="#cancelProc" prefWidth="100.0" text="취소">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #535353;">
+               <children>
+                  <Button fx:id="reserveBtn" mnemonicParsing="false" onAction="#reserveProc" text="예매하기">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </bottom>
+   <right>
+      <VBox prefHeight="469.0" prefWidth="188.0" style="-fx-background-color: #535353;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="85.0" prefWidth="188.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/선택o.PNG" />
+                           </image>
+                        </ImageView>
+                        <Label text="선택좌석" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/seatcomp.PNG" />
+                           </image></ImageView>
+                        <Label text="예약좌석" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="188.0" spacing="10.0">
+               <children>
+                  <Label text="청소년" textFill="#fcfcfc" />
+                  <ComboBox fx:id="cbTeen" onAction="#changeTeen" prefWidth="100.0" promptText="0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="188.0" spacing="20.0">
+               <children>
+                  <Label text="성인" textFill="WHITE" />
+                  <ComboBox fx:id="cbAdult" onAction="#changeAdult" prefHeight="23.0" prefWidth="100.0" promptText="0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="33.0" prefWidth="188.0" spacing="10.0">
+               <children>
+                  <Label text="노약자" textFill="WHITE" />
+                  <ComboBox fx:id="cbOld" onAction="#changeOld" prefWidth="100.0" promptText="0" />
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="224.0" prefWidth="188.0">
+               <children>
+                  <ImageView fx:id="imgMovieName" fitHeight="189.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="imgMovieAge" fitHeight="29.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="32.0" prefWidth="188.0" spacing="10.0">
+                     <children>
+                        <Label text="좌석" textFill="WHITE">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtSeat" alignment="CENTER" prefHeight="23.0" prefWidth="127.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_CENTER" prefHeight="27.0" prefWidth="188.0" spacing="10.0">
+                     <children>
+                        <Label text="인원" textFill="WHITE">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtPeople" alignment="CENTER_RIGHT" prefWidth="100.0" />
+                        <Label text="명" textFill="WHITE">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="25.0" prefWidth="188.0" spacing="10.0">
+               <children>
+                  <Label text="가격" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtPrice" alignment="CENTER_RIGHT" prefWidth="100.0" />
+                  <Label text="원" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

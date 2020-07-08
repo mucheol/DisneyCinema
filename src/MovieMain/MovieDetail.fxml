@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="811.0" prefWidth="873.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MovieMain.ControllerMain">
+   <left>
+      <VBox prefHeight="750.0" prefWidth="29.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="750.0" prefWidth="32.0" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <HBox prefHeight="31.0" prefWidth="873.0" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="808.0" prefWidth="812.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="imgDetail" fitHeight="655.0" fitWidth="828.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/백두산%20상세정보.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox prefHeight="30.0" prefWidth="873.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

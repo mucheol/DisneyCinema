@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1279.0" style="-fx-background-color:#DCDCDC" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MovieMain.ControllerMain">
+   <top>
+      <HBox prefHeight="114.0" prefWidth="1245.0" style="-fx-background-color:WHITE" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="114.0" prefWidth="248.0">
+               <children>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="111.0" prefWidth="186.0">
+                     <children>
+                        <ImageView fitHeight="91.0" fitWidth="201.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../bin/Image/디즈니%20시네마%20로고.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="114.0" prefWidth="525.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="834.0" />
+               </children></HBox>
+            <VBox prefHeight="114.0" prefWidth="600.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="275.0" />
+                  <HBox alignment="CENTER" prefHeight="111.0" prefWidth="710.0">
+                     <children>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <Button mnemonicParsing="false" onAction="#openStoreAction" prefHeight="111.0" prefWidth="140.0" style="-fx-background-color: white;" text="STORE">
+                           <font>
+                              <Font name="중간안상수체" size="24.0" />
+                           </font>
+                        </Button>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <Button mnemonicParsing="false" onAction="#myReserveAction" prefHeight="111.0" prefWidth="140.0" style="-fx-background-color:WHITE" text="예매 확인" textFill="#171414">
+                           <font>
+                              <Font name="중간안상수체" size="24.0" />
+                           </font>
+                        </Button>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#loginOpenAction" prefHeight="111.0" prefWidth="140.0" style="-fx-background-color:WHITE" text="로그인" textFill="#171414">
+                           <font>
+                              <Font name="중간안상수체" size="24.0" />
+                           </font>
+                        </Button>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                        <Button mnemonicParsing="false" onAction="#memberOpenAction" prefHeight="111.0" prefWidth="140.0" style="-fx-background-color:WHITE" text="회원가입">
+                           <font>
+                              <Font name="중간안상수체" size="24.0" />
+                           </font>
+                        </Button>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" />
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children></HBox>
+   </top>
+   <bottom>
+      <HBox prefHeight="145.0" prefWidth="1279.0" style="-fx-background-color:#3F3F3F" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="150.0" prefWidth="253.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="195.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/미키마우스%20투명%20로고.png" />
+                     </image>
+                  </ImageView>
+               </children></VBox>
+            <VBox prefHeight="150.0" prefWidth="118.0" />
+            <VBox prefHeight="150.0" prefWidth="500.0">
+               <children>
+                  <HBox prefHeight="85.0" prefWidth="533.0" />
+                  <HBox prefHeight="59.0" prefWidth="533.0" />
+                  <HBox prefHeight="86.0" prefWidth="533.0">
+                     <children>
+                        <VBox prefHeight="60.0" prefWidth="544.0" spacing="3.0">
+                           <children>
+                              <Label style="-fx-text-fill:#BFBFBF" text="서울특별시 종로구 돈화문로 26 단성사빌딩 3층 " />
+                              <Label style="-fx-text-fill:#BFBFBF" text="대표자명 김진원 남현준 김무철 최성원 | 개인정보보호 책임자 BP본부 본부장 " />
+                              <Label style="-fx-text-fill:#BFBFBF" text="사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호 " />
+                           </children>
+                        </VBox>
+                     </children></HBox>
+               </children></VBox>
+            <VBox prefHeight="150.0" prefWidth="539.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="97.0" prefWidth="486.0" spacing="3.0">
+                     <children>
+                        <Label style="-fx-text-fill:#7F7F7F" text="ARS ">
+                           <font>
+                              <Font name="HYkanB" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label style="-fx-text-fill:#BFBFBF" text="1234-5678">
+                           <font>
+                              <Font name="HYkanB" size="25.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="71.0" prefWidth="525.0" />
+                  <HBox alignment="TOP_RIGHT" prefHeight="65.0" prefWidth="484.0">
+                     <children>
+                        <Label style="-fx-text-fill:#BFBFBF" text="Copyright 2019 by DisneyCinema, Inc. All rights reserved" textAlignment="CENTER">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children></HBox>
+               </children></VBox>
+            <VBox prefHeight="150.0" prefWidth="143.0" />
+         </children></HBox>
+   </bottom>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="99.0" prefWidth="1079.0" />
+            <HBox prefHeight="512.0" prefWidth="1079.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="475.0" prefWidth="300.0">
+                     <children>
+                        <Separator prefWidth="200.0" />
+                        <VBox alignment="TOP_CENTER" prefHeight="474.0" prefWidth="179.0">
+                           <children>
+                              <HBox alignment="TOP_CENTER" prefHeight="365.0" prefWidth="270.0">
+                                 <children>
+                                    <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: WHITE" />
+                                    <ImageView fitHeight="363.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Image/백두산%20이미지.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="59.0" prefWidth="233.0">
+                                 <children>
+                                    <HBox prefHeight="56.0" prefWidth="7.0" style="-fx-background-color: WHITE;">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                       </children>
+                                       <HBox.margin>
+                                          <Insets left="2.0" />
+                                       </HBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="58.0" prefWidth="60.0" style="-fx-background-color:WHITE">
+                                       <children>
+                                          <ImageView fitHeight="26.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../bin/Image/12세.PNG" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color:WHITE">
+                                       <children>
+                                          <Label text="백두산" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="휴먼중간팸체" size="26.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="0.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="53.0" prefWidth="270.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="0.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="0.0" style="-fx-background-color: WHITE">
+                                             <HBox.margin>
+                                                <Insets left="2.0" />
+                                             </HBox.margin>
+                                          </Separator>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="254.0" spacing="13.0" style="-fx-background-color: WHITE">
+                                       <children>
+                                          <Button fx:id="btnDetailBaek" mnemonicParsing="false" onAction="#movieDetailAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="상세정보" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="HYwulB" size="15.0" />
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="btnBaek" mnemonicParsing="false" onAction="#reserveMovieAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="예매하기" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="HYwulB" size="15.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="0.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="19.0" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <Separator prefWidth="200.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="475.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="475.0" prefWidth="300.0">
+                           <children>
+                              <Separator prefWidth="200.0" />
+                              <VBox alignment="TOP_CENTER" prefHeight="474.0" prefWidth="179.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="365.0" prefWidth="270.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: WHITE" />
+                                          <ImageView fitHeight="363.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Image/시동%20이미지.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="59.0" prefWidth="233.0">
+                                       <children>
+                                          <HBox prefHeight="56.0" prefWidth="7.0" style="-fx-background-color: WHITE;">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                             <HBox.margin>
+                                                <Insets left="2.0" />
+                                             </HBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="58.0" prefWidth="60.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <ImageView fitHeight="26.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Image/15세.PNG" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <Label text="시동" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="휴먼중간팸체" size="26.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="53.0" prefWidth="270.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="0.0" style="-fx-background-color: WHITE">
+                                                   <HBox.margin>
+                                                      <Insets left="2.0" />
+                                                   </HBox.margin>
+                                                </Separator>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="254.0" spacing="13.0" style="-fx-background-color: WHITE">
+                                             <children>
+                                                <Button fx:id="btnDetailSidong" mnemonicParsing="false" onAction="#movieDetailAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="상세정보" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnSidong" mnemonicParsing="false" onAction="#reserveMovieAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="예매하기" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="19.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <Separator prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="475.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="475.0" prefWidth="300.0">
+                           <children>
+                              <Separator prefWidth="200.0" />
+                              <VBox alignment="TOP_CENTER" prefHeight="474.0" prefWidth="179.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="365.0" prefWidth="270.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: WHITE" />
+                                          <ImageView fitHeight="363.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Image/캣츠%20이미지.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="59.0" prefWidth="233.0">
+                                       <children>
+                                          <HBox prefHeight="56.0" prefWidth="7.0" style="-fx-background-color: WHITE;">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                             <HBox.margin>
+                                                <Insets left="2.0" />
+                                             </HBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="58.0" prefWidth="60.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <ImageView fitHeight="26.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../bin/Image/12세.PNG" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <Label text="캣츠" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="휴먼중간팸체" size="26.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="53.0" prefWidth="270.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="0.0" style="-fx-background-color: WHITE">
+                                                   <HBox.margin>
+                                                      <Insets left="2.0" />
+                                                   </HBox.margin>
+                                                </Separator>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="254.0" spacing="13.0" style="-fx-background-color: WHITE">
+                                             <children>
+                                                <Button fx:id="btnDetailCats" mnemonicParsing="false" onAction="#movieDetailAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="상세정보" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnCats" mnemonicParsing="false" onAction="#reserveMovieAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="예매하기" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="19.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <Separator prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="475.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="475.0" prefWidth="300.0">
+                           <children>
+                              <Separator prefWidth="200.0" />
+                              <VBox alignment="TOP_CENTER" prefHeight="474.0" prefWidth="179.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="365.0" prefWidth="270.0">
+                                       <children>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: WHITE" />
+                                          <ImageView fitHeight="363.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Image/겨울왕국%20이미지.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="59.0" prefWidth="233.0">
+                                       <children>
+                                          <HBox prefHeight="56.0" prefWidth="7.0" style="-fx-background-color: WHITE;">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                             <HBox.margin>
+                                                <Insets left="2.0" />
+                                             </HBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="58.0" prefWidth="60.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Image/전체.PNG" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color:WHITE">
+                                             <children>
+                                                <Label text="겨울왕국Ⅱ" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="휴먼중간팸체" size="26.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="53.0" prefWidth="270.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="0.0" style="-fx-background-color: WHITE">
+                                                   <HBox.margin>
+                                                      <Insets left="2.0" />
+                                                   </HBox.margin>
+                                                </Separator>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="254.0" spacing="13.0" style="-fx-background-color: WHITE">
+                                             <children>
+                                                <Button fx:id="btnDetailFrozen" mnemonicParsing="false" onAction="#movieDetailAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="상세정보" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnFrozen2" mnemonicParsing="false" onAction="#reserveMovieAction" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color:#DCDCDC" text="예매하기" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="HYwulB" size="15.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="0.0">
+                                             <children>
+                                                <Separator orientation="VERTICAL" prefHeight="50.0" prefWidth="19.0" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <Separator prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="100.0" prefWidth="1079.0" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

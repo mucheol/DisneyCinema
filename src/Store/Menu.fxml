@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Store.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints prefWidth="920.0" />
+      <ColumnConstraints minWidth="10.0" prefWidth="350.0" />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="60.0" />
+      <RowConstraints prefHeight="40.0" />
+      <RowConstraints prefHeight="220.0" />
+      <RowConstraints prefHeight="40.0" />
+      <RowConstraints minHeight="10.0" prefHeight="220.0" />
+      <RowConstraints minHeight="10.0" prefHeight="40.0" />
+      <RowConstraints minHeight="10.0" prefHeight="220.0" />
+      <RowConstraints minHeight="10.0" prefHeight="50.0" />
+   </rowConstraints>
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/후라이드콤보%2014000.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="BT1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="치킨콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Bprice1" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="14,900원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BB1" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/더블콤보%209500.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="BT2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="더블콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Bprice2" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="  9,900원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BB2" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/팝콘.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="BT3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="캬라멜맛 팝콘">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Bprice3" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="   5,000원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BB3" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../이미지/탄산2.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="BT4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="콜라">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Bprice4" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="2,000원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BB4" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/스트링치즈프랫즐콤보%2012000.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="PT1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="스트링치즈콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pprice1" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="12,900원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BP1" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/나초콤보%2011000.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="PT2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="나초콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pprice2" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="10,500원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BP2" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/에이드콤보.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="PT3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="에이드콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pprice3" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="14,500원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BP3" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="220.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../이미지/핫도그콤보%2011000.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="PT4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="200.0" text="핫도그콤보">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pprice4" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="11,400원">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="BP4" mnemonicParsing="false">
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </RadioButton>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/팝콘.jpg" />
+                     </image></ImageView>
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="200.0" text="팝콘">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Sprice1" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="5,000원" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="cmbChoice1" prefWidth="150.0" promptText="상품선택" />
+                        <RadioButton fx:id="BS1" mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets left="25.0" top="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="210.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/탄산음료.jpg" />
+                     </image></ImageView>
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="200.0" text="탄산음료">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Sprice2" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="2,000원" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="cmbChoice2" prefWidth="150.0" promptText="상품선택" />
+                        <RadioButton fx:id="BS2" mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets left="25.0" top="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="210.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="200.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../이미지/에이드.jpg" />
+                     </image></ImageView>
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="200.0" text="에이드">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Sprice3" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="2,500원" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="cmbChoice3" prefWidth="150.0" promptText="상품선택" />
+                        <RadioButton fx:id="BS3" mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets left="25.0" top="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Line endX="-100.0" endY="210.0" startX="-100.0" />
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="200.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../이미지/간식.jpg" />
+                     </image></ImageView>
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="200.0" text="기타">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Sprice4" alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" text="4,000원" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="cmbChoice4" prefWidth="150.0" promptText="상품선택" />
+                        <RadioButton fx:id="BS4" mnemonicParsing="false">
+                           <HBox.margin>
+                              <Insets left="25.0" top="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="300.0" spacing="70.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+         <children>
+            <Button fx:id="Btn1" mnemonicParsing="false" onAction="#Buy" prefHeight="40.0" prefWidth="170.0" text="구매">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="Btn2" mnemonicParsing="false" onAction="#CancelProc" prefHeight="40.0" prefWidth="170.0" text="취소">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <children>
+            <Label alignment="BOTTOM_CENTER" prefHeight="60.0" prefWidth="150.0" text="단품">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <children>
+            <Label alignment="BOTTOM_LEFT" prefHeight="50.0" prefWidth="150.0" text="패키지 상품">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Label alignment="BOTTOM_LEFT" prefHeight="40.0" prefWidth="150.0" text="베스트 상품">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <HBox />
+         </children>
+      </HBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="920.0" text="STORE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <HBox />
+      <ListView fx:id="lstV" maxWidth="350.0" prefHeight="411.0" prefWidth="350.0" GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.rowSpan="4" />
+      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <children>
+            <Button mnemonicParsing="false" onAction="#AddCart" text="장바구니 추가">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="400.0" />
+               </HBox.margin>
+            </Button>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="150.0" text="총 결제금액">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="Price" alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="150.0" text="0" textAlignment="RIGHT">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="60.0" prefWidth="50.0" text="원">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.rowSpan="3">
+         <children>
+            <ImageView fitHeight="234.0" fitWidth="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../이미지/디즈니%20시네마%20로고.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="5.0" top="30.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label alignment="CENTER" prefHeight="76.0" prefWidth="350.0" text="장바구니">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1101.0" style="-fx-background-color:#DCDCDC" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MovieMain.ControllerMain">
+   <top>
+      <VBox prefHeight="105.0" prefWidth="1101.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="81.0" prefWidth="1101.0" style="-fx-background-color:#BFBFBF">
+               <children>
+                  <HBox prefHeight="81.0" prefWidth="44.0" />
+                  <HBox alignment="CENTER" prefHeight="81.0" prefWidth="161.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/디즈니%20투명%20글씨%20로고.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="회원가입">
+                           <font>
+                              <Font name="HYsupM" size="27.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="7.0" />
+                           </HBox.margin></Label>
+                     </children>
+                  </HBox>
+               </children></HBox>
+            <VBox alignment="CENTER" prefHeight="0.0" prefWidth="1101.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="1101.0" style="-fx-background-size: 10; -fx-border-color: black; -fx-border-width: 0 0 0 1090;" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="901.0">
+               <children>
+                  <Label text="기본정보 (필수입력)">
+                     <font>
+                        <Font name="HYsupM" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #666666; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </VBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="아이디">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="212.0">
+                     <children>
+                        <TextField fx:id="txtID" prefHeight="23.0" prefWidth="199.0" promptText="아이디">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="95.0">
+                     <children>
+                        <Button onAction="#overlapAction" mnemonicParsing="false" prefHeight="27.0" prefWidth="93.0" style="-fx-background-color: #BFBFBF;" text="중복확인">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="206.0">
+                     <children>
+                        <Label text="영문이나 숫자 혹은 그 조합 8~12자리">
+                           <font>
+                              <Font name="HYsupM" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="비밀번호">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="212.0">
+                     <children>
+                        <PasswordField fx:id="txtPW" prefHeight="23.0" prefWidth="199.0" promptText="비밀번호">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="95.0" />
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="280.0">
+                     <children>
+                        <Label text="영문, 숫자, 특수문자 중 2가지 이상 조합 10자리 이상">
+                           <font>
+                              <Font name="HYsupM" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="비밀번호 확인">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="212.0">
+                     <children>
+                        <PasswordField fx:id="txtPWOK" prefHeight="23.0" prefWidth="199.0" promptText="비밀번호 확인">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children></HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="이름">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="212.0">
+                     <children>
+                        <TextField fx:id="txtName" prefHeight="23.0" prefWidth="199.0" promptText="이름">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children></HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children></HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="이메일">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="212.0">
+                     <children>
+                        <TextField fx:id="txtEmail" prefHeight="23.0" prefWidth="199.0" promptText="이메일">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children></HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #666666; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="38.0" prefWidth="901.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="901.0">
+               <children>
+                  <Label text="부가정보 (선택입력)">
+                     <font>
+                        <Font name="HYsupM" size="16.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #666666; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="성별">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="85.0">
+                     <children>
+                        <RadioButton fx:id="radioMale" mnemonicParsing="false" text="남성">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="gender" />
+                           </toggleGroup>
+                        </RadioButton>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="75.0">
+                     <children>
+                        <RadioButton fx:id="radioFemale" mnemonicParsing="false" text="여성" toggleGroup="$gender">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </RadioButton>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="취미">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="360.0" spacing="27.0">
+                     <children>
+                        <CheckBox onAction="#chkHobbyAction" fx:id="chkBook" mnemonicParsing="false" text="독서">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox onAction="#chkHobbyAction" fx:id="chkGame" mnemonicParsing="false" text="게임">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox onAction="#chkHobbyAction" fx:id="chkMovie" mnemonicParsing="false" text="영화감상">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox onAction="#chkHobbyAction" fx:id="chkMusic" mnemonicParsing="false" text="음악감상">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="36.0" prefWidth="123.0">
+                     <children>
+                        <CheckBox onAction="#chkHobbyEtcAction" fx:id="chkEtc" mnemonicParsing="false" text="기타">
+                           <font>
+                              <Font name="HYsupM" size="12.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #999999; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="901.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: #BFBFBF;">
+                     <children>
+                        <Label text="나이">
+                           <font>
+                              <Font name="HYsupM" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="cmbAge" prefWidth="150.0" promptText="나이" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="901.0">
+               <children>
+                  <Separator prefHeight="0.0" prefWidth="901.0" style="-fx-border-color: #666666; -fx-border-width: 0 0 0 890;" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox prefHeight="68.0" prefWidth="1101.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#cancelAction" prefHeight="40.0" prefWidth="107.0" style="-fx-background-color: white; -fx-border-color: black;" text="취소">
+                     <font>
+                        <Font name="HYwulM" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#memberAction" prefHeight="40.0" prefWidth="107.0" style="-fx-background-color: black;" text="확인" textFill="WHITE">
+                     <font>
+                        <Font name="HYwulM" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
